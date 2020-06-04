@@ -1,0 +1,150 @@
+
+.item-img
+{
+	height:250px;
+ 	width:100%;
+
+}
+
+
+.my a {
+    text-decoration-color: black;
+    text-decoration: none;
+    
+    color:black;
+}
+.btns{
+    font-size: 10px;
+}
+
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    
+    overflow-y:hidden; 
+    padding-top: 60px;
+    transition: 0.5s; 
+  }
+  
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+  }
+
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #67DDE0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#63B4FA;
+  }
+  
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  #my_nav_1{
+	 
+	 border-width:2px;
+border-bottom-style:solid;
+border-radius:20%;
+border-color:#8FF5F8;
+
+  }
+#footer{
+	background-color:#8FF5F8;
+}
+#footer a {
+	color:black;
+	font-size:15px;
+}
+
+#my_nav_2{
+	margin-top:10px;
+	border-width:2px;
+border-top-style:solid;
+border-radius:20%;
+border-color:#8FF5F8;
+}
+.bg-color{
+	background-color:rgb(40, 221, 228);
+	margin-top:-6px;
+}
+.bg-color-light{
+	background-color:rgb(98, 210, 238);
+}
+
+.category_item{
+
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+
+.tag{
+  color: #63B4FA;
+}
+.name{
+  color: rgb(29, 29, 29);
+}
+#title{
+  color:rgb(29, 29, 29);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn_login{
+
+  background-color: #67DDE0;
+
+}
+ 
+.price{
+  font-size:30px;
+  background-color:#67DDE0 ;
+}
+
+.btns{
+  background-color:#67DDE0 ;
+  color: ivory;
+  font-size: 20px;
+}
+
+.price_tag{
+  background-color: lawngreen;
+  margin-top: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,35 @@
+
+#logo{
+	margin-top:20px;
+	margin-left:10px;
+	margin-bottom:20px;
+}
+
+.fi{
+	margin-left:20px;
+}
+.white_text{
+	color:#FFF;
+}
+
+.top{
+	margin-top:15px;
+}
+.tops{
+	margin-top:10px;
+}
+#slider
+{
+	margin-top:-18px;
+}
+.INTO_TEXT{
+	font-weight:100;
+	font-variant:small-caps;
+	font-size:20px;
+	text-align:justify;
+	
+}
+marquee{
+	background-color:#03C;
+	color:#FFF;
+}
